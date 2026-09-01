@@ -119,10 +119,20 @@ Duplicate products are removed before generating the final recommendation list.
 ```text
 Product-Recommender-System-Walmart/
 │
-├── Untitled.ipynb
-├── walmart_ca-ecommerce_product_details__20190101_20190208_sample.csv
-└── README.md
+├── data/
+│   ├── products.csv
+│   ├── ratings.csv
+│   └── walmart_products.csv
+│
+├── product_recommender.ipynb
+├── README.md
+└── requirements.txt
 ```
+### Data Files
+
+* **`walmart_products.csv`** — Original Walmart e-commerce product catalogue used as the source dataset.
+* **`products.csv`** — Processed product data used for recommendation and feature-based analysis.
+* **`ratings.csv`** — User-product rating or interaction data used for collaborative filtering.
 
 ## Installation
 
